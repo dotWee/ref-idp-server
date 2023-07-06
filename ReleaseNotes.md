@@ -1,3 +1,15 @@
+# Release 24.1.0
+
+- method JsonWebToken#encrypt(Key) is deprecated
+- refactor creating an IdpJwe in JsonWebToken.class
+
+# Release 24.0.4
+
+- add security policy and disclaimer
+- set log level for some packages as JVM property
+- set "gematik reference authorization server" in federated IDP list
+- update dependencies
+
 # Release 24.0.0
 
 - api breaking change: remove unused property from AuthenticationTokenBuilder
